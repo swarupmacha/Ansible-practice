@@ -1,0 +1,9 @@
+- name: variables
+  hosts: local
+  connection: local
+  tasks:
+  - name: print variables
+    vars:
+      COURSE: "AZURE"
+    ansible.builtin.debug:
+      msg: "COURSE is: {{ COURSE }}"
