@@ -1,0 +1,11 @@
+- name: variables
+  hosts: local
+  connection: local
+  vars_files:
+  - 06.course.yml
+  tasks:
+  - name: print variables
+    vars:
+      COURSE: "AZURE"
+    ansible.builtin.debug:
+      msg: "COURSE is: {{ COURSE }} , CITY is: {{ CITY }}"
