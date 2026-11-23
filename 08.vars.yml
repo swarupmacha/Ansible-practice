@@ -1,4 +1,4 @@
-- name: variables
+- name: printing the variables 
   hosts: local
   connection: local
   tasks:
