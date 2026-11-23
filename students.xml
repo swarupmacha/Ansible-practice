@@ -1,0 +1,19 @@
+<!-- students Object -->
+<students>
+    <student1>
+        <FirstName>Swarup</FirstName>
+        <LastName>Macha</LastName>
+        <Email>swarupmacha18@gmail.com</Email>
+        <Address>
+            <FlatNumber>453673</FlatNumber>
+        </Address>
+    </student1>
+    <student2>
+    <FirstName>Swarup</FirstName>
+    <LastName>Macha</LastName>
+    <Email>swarupmacha18@gmail.com</Email>
+    <Address>
+        <FlatNumber>453673</FlatNumber>
+    </Address>
+    </student2>
+</students>

@@ -1,0 +1,42 @@
+{
+  "students": [
+    {
+      "firstName": "swarup macha",
+      "dob": "452782-182829",
+      "addresses": [
+        {
+          "type": "perm",
+          "flatnumber": 104,
+          "street": "fsgund",
+          "city": "banglore"
+        },
+        {
+          "type": "temp",
+          "flatnumber": 107,
+          "street": "fsgund",
+          "city": "banglore"
+        }
+      ],
+      "skills": ["java", "python", "aws"]
+    },
+    {
+      "firstName": "ramesh macha",
+      "dob": "45452-18239",
+      "addresses": [
+        {
+          "type": "perm",
+          "flatnumber": 109,
+          "street": "fsd",
+          "city": "banglore"
+        },
+        {
+          "type": "temp",
+          "flatnumber": 177,
+          "street": "fsd",
+          "city": "banglore"
+        }
+      ],
+      "skills": ["java", "python", "aws"]
+    }
+  ]
+}

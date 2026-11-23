@@ -1,0 +1,21 @@
+- name: "swarup Macha"
+  dob: "199-28-01"
+  mobilenumber: 123456789
+  addresses:
+  - flatNumber: 108
+    street: gandi
+    city: hyder
+  
+  - flatNumber: 120
+    street: gawi
+    city: bang
+
+
+- name: "rishi Macha"
+  dob: "199-28-01"
+  mobilenumber: 123456789
+  addresses:
+  - flatNumber: 108
+    street: gandi
+    city: hyder
+
