@@ -1,0 +1,22 @@
+- name: datatypes
+  hosts: localhost
+  connection: local
+  vars:
+    PROGRAM: "AWS AND AZURE"
+    DURATION: 140
+    IS_LIVE: true
+    DETAILS:
+      TRAINER: swarup
+    TOPICS:
+    - Linux
+    - AWS
+    - AZURE
+  tasks:
+  - nmae: print variables
+    debug:
+      msg: |
+        PROGRAM: {{ PROGRAM }}
+        DURATION: {{ DURATION }}
+        IS_LIVE: {{ IS_LIVE }}
+        Detaisl: {{ DETAILS }}
+        TOPICS : {{ TOPICS }}
