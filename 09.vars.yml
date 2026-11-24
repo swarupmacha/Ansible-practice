@@ -1,0 +1,7 @@
+- name: print from args
+  hosts: localhost
+  connection: local
+  tasks:
+  - name: print name from args
+    ansible.builtin.debug:
+      msg: "Hi {{ Name }} from args"
