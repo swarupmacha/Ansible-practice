@@ -1,4 +1,4 @@
-- name: printing ansible facts:
+- name: "printing ansible facts:"
   hosts: localhost
   connection: local
   tasks:
