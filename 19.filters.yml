@@ -3,6 +3,12 @@
   connection: local
   vars:
     topics: linux, shell, anisble, terraform
+    myIp: "245.456.689.879"
+    course: "devops"
+      tags: 
+        name: ansible
+        project: roboshop
+        component: mongodb
   tasks:
   - name: greetings from filters
     ansible.builtin.debug:
@@ -11,3 +17,20 @@
   - name: convert string to list
     ansible.builtin.debug:
       msg: "{{ topics | split(',') }}"
+
+  - name: convert map to list
+    ansible.builtin.debug:
+      msg: "{{ tags | dict2items }}"
+
+  - name: convert to uppercase
+    ansible.builtin.debug:
+      msg: "{{ course | upper }}"
+  
+  - name: convert to uppercase
+    ansible.builtin.debug:
+      msg: "{{ course | lower }}"
+
+  - name: check valid ipv4 address or not
+    ansible.builtin.debug:
+      msg: "{{ myIp | ansible.utils.ipv4 }}"
+  
