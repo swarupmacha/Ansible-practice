@@ -1,0 +1,12 @@
+- name: loops practical
+  hosts: localhost
+  connection: local
+  tasks:
+  - name: isntalling the packages
+    anisble.builtin.package:
+      name: "{{ item }}"
+      state: present
+    loop:
+    - nginx
+    - mysql
+    - node.js
