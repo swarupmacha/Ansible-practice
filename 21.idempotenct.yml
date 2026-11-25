@@ -1,0 +1,4 @@
+- name: check idempodency
+  hosts: localhost
+  connection: local
+  became: yes
