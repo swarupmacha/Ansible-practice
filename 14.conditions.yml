@@ -9,4 +9,4 @@
   - name: check redhut or not
     ansible.builtin.debug:
       msg: "yes package is redhat"
-    when: ansible_facts.os_family == "Redhat"
+    when: ansible_facts.os_family == "RedHat"
