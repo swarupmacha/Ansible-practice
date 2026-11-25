@@ -3,7 +3,7 @@
   connection: local
   tasks:
   - name: demo on loops
-    anisble.builtin.debug:
+    ansible.builtin.debug:
       msg: "hello {{ item }}"
     loop:
     - swarup
