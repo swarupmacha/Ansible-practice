@@ -12,5 +12,5 @@
       msg: "{{ user_output }}"
   
   - name: create user
-    anisble.builtin.command: useradd swarupp
+    anisble.builtin.shell: useradd swarupp
     when: user_output.rc != 0
