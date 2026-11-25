@@ -3,7 +3,7 @@
   connection: local
   tasks:
   - name: check user exists or not
-    ansible.builtin.shell: id roboshop
+    ansible.builtin.command: id roboshop
     register: user_output
     ignore_errors: true
 
@@ -12,5 +12,5 @@
       msg: "{{ user_output }}"
   
   - name: create user
-    anisble.builtin.shell: useradd swarupp
+    ansible.builtin.command: useradd swarupp
     when: user_output.rc != 0
